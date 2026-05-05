@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.appShell {
+  min-height: 100vh;
+  background:
+    linear-gradient(180deg, rgba(31, 111, 120, 0.08), rgba(247, 248, 245, 0) 260px),
+    #f7f8f5;
+}
+
+.topBar {
+  border-bottom: 1px solid rgba(31, 111, 120, 0.16);
+  background: rgba(255, 255, 255, 0.78);
+}
+
+.summaryBand {
+  border: 1px solid rgba(31, 111, 120, 0.16);
+  margin-bottom: 16px;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.86);
+}
+
+.tableWrap {
+  border: 1px solid rgba(31, 111, 120, 0.16);
+  overflow: hidden;
+}
+
+.typeChip {
+  min-width: 88px;
+  text-transform: capitalize;
+}
